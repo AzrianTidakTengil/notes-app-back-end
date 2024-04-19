@@ -54,7 +54,7 @@ const getNoteById = (request, h) => {
 
   if (note !== undefined) {
     return {
-      message: "success",
+      status: "success",
       data: {
         note,
       },
